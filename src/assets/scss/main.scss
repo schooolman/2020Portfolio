@@ -892,6 +892,7 @@
 
 		&:hover {
 			background-color: rgba(0,0,0,0.15) ;
+			cursor: pointer;
 		}
 
 		.image {
@@ -1540,4 +1541,10 @@
 	.\34 u24 {
 		width: 100%;
 	}
+}
+
+
+// new one off styles TODO: need to refactor
+.modal.display-block {
+	z-index: 100;
 }

@@ -89,7 +89,7 @@ class Gallery extends Component {
                 {this.renderGallery(images, descriptions)}
                 {/* {this.renderModal(descriptions)} */}
                 <Modal show={this.state.showModal} handleClose={this.hideModal}>
-                    <h1>Description: {companyName}</h1>
+                    <h1>{companyName}</h1>
                     <p>{currentDescription}</p>
 
                 </Modal>
